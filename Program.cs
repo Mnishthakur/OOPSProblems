@@ -10,7 +10,7 @@ namespace InventoryManagement
         static void Main(string[] args)
         {
             // Read in JSON file
-            string json = File.ReadAllText("Inventory.json");
+            string json = File.ReadAllText("inventory.json");
 
             // Parse JSON into list of Inventory objects using InventoryFactory
             InventoryManager inventoryManager = new InventoryManager();
